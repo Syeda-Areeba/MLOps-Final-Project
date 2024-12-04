@@ -1,0 +1,6 @@
+outs:
+- md5: cc7e178752ff6940f3cabd0287d63afe
+  size: 7228
+  isexec: true
+  hash: md5
+  path: raw_weather_data.csv

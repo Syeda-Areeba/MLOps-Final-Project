@@ -1,0 +1,24 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python scripts/train.py
+    deps:
+    - path: data/processed_weather_data.csv
+      hash: md5
+      md5: c7b327fc1553151c9612cab86e5be865
+      size: 20502
+      isexec: true
+    - path: scripts/train.py
+      hash: md5
+      md5: 7d17892575c074f53ad8d6523c86fea9
+      size: 1317
+      isexec: true
+    outs:
+    - path: models/linear_reg_model.pkl
+      hash: md5
+      md5: 1cff81265af35c0870f3e7aada235843
+      size: 691
+    - path: report/metrics.json
+      hash: md5
+      md5: 20a827120133406b4b71c85b00e9e9f4
+      size: 100
