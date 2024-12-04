@@ -3,7 +3,7 @@ import json
 from dotenv import load_dotenv
 import os
 
-def fetch_weather_data(location="Islamabad", start_date="2024-11-29", end_date="2024-12-4"):
+def fetch_weather_data(location="Islamabad", start_date="2024-11-29", end_date="2024-12-5"):
     conn = http.client.HTTPSConnection("weatherapi-com.p.rapidapi.com")
 
     load_dotenv()

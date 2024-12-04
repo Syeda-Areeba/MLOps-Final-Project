@@ -1,6 +1,6 @@
 outs:
-- md5: b18403f101141a94cd71eae1b39e5632
-  size: 254155
+- md5: e8f72044524bf60923c4ed193eee2f36
+  size: 168
   isexec: true
   hash: md5
   path: raw_weather_data.json
